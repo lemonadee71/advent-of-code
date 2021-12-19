@@ -1,0 +1,23 @@
+{
+  "name": "advent-of-code",
+  "version": "1.0.0",
+  "description": "Solutions for Advent of Code",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "watch": "jest --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lemonadee71/advent-of-code.git"
+  },
+  "author": "Shin Andrei Riego",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lemonadee71/advent-of-code/issues"
+  },
+  "homepage": "https://github.com/lemonadee71/advent-of-code#readme",
+  "devDependencies": {
+    "jest": "^27.4.5"
+  }
+}
