@@ -1,4 +1,5 @@
 const fs = require('fs');
+const path = require('path');
 const {
   countDepthIncrease,
   countSlidingWindowIncrease,
@@ -6,10 +7,7 @@ const {
 
 describe('day 1', () => {
   const input = fs
-    .readFileSync(
-      '/home/lemon/Desktop/the-odin-project/advent-of-code/2021/day1/input.txt',
-      'utf8'
-    )
+    .readFileSync(path.resolve(__dirname, 'input.txt'), 'utf8')
     .trim()
     .split('\n')
     .map((x) => +x);

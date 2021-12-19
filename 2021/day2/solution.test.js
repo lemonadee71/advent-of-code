@@ -1,12 +1,10 @@
 const fs = require('fs');
+const path = require('path');
 const { calculateMoves, calculateMovesWithAim } = require('./solution');
 
 describe('day 2', () => {
   const input = fs
-    .readFileSync(
-      '/home/lemon/Desktop/the-odin-project/advent-of-code/2021/day2/input.txt',
-      'utf8'
-    )
+    .readFileSync(path.resolve(__dirname, 'input.txt'), 'utf8')
     .trim()
     .split('\n');
 
